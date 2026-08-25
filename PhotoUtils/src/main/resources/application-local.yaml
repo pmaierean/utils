@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: PhotoUtils
+logging:
+  file.name: /opt/local/logs/photoutils/application.log
+  level:
+    root: error
+    com:
+      maiereni:
+        photo:
+          photoutils: debug
